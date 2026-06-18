@@ -135,11 +135,13 @@ export default function Home() {
           {HERO_SLIDES.map((slide, i) => (
             <SwiperSlide key={i} className="relative w-full h-full">
               <div className="absolute inset-0 w-full h-full">
-                <img 
-                  src={slide.image} 
-                  alt="" 
-                  className="w-full h-full object-cover transition-transform duration-1000 scale-105" 
-                />
+                <Image
+  src={slide.image}
+  alt="Luxury Private Pool Villas in Mahabaleshwar Panchgani and Lonavala"
+  fill
+  priority
+  className="object-cover transition-transform duration-1000 scale-105"
+/>
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80" />
               
@@ -259,8 +261,8 @@ export default function Home() {
               ))}
             </div>
             <div className="grid grid-cols-2 gap-6 relative">
-              <img src="/images/villas/dwarka/dwarka1.webp" alt="Villa Exterior" className="rounded-3xl aspect-[3/4] object-cover shadow-2xl" />
-              <img src="/images/villas/dhanushkodi/Parking space.JPG.webp" alt="Villa Exterior" className="rounded-3xl aspect-[3/4] object-cover mt-12 shadow-2xl" />
+              <img src="/images/villas/dwarka/dwarka1.webp" alt="Luxury Private Pool Villa Exterior in Maharashtra" className="rounded-3xl aspect-[3/4] object-cover shadow-2xl" />
+              <img src="/images/villas/dhanushkodi/Parking space.JPG.webp" alt="Luxury Private Pool Villa Exterior in Maharashtra" className="rounded-3xl aspect-[3/4] object-cover mt-12 shadow-2xl" />
             </div>
           </div>
         </div>
@@ -508,7 +510,7 @@ export default function Home() {
 
       {/* FINAL CTA */}
       <section className="relative py-32 lg:py-40 overflow-hidden">
-        <img src="/images/villas/hridayam/hridayam5.webp" alt="" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/images/villas/hridayam/hridayam5.webp" alt="Luxury Villa by Natures Sweet Homes" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 grad-bp opacity-90" />
         <div className="relative container mx-auto max-w-4xl px-6 text-center text-white">
           <div className="text-[12px] md:text-sm tracking-[0.45em] uppercase mb-6 opacity-90 font-medium">— Plan Your Sahyadri Escape —</div>
