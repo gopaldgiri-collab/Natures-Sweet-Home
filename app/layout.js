@@ -24,16 +24,20 @@ export const metadata = {
 
   keywords: [
     "Luxury Villas Mahabaleshwar",
-    "Luxury Villas Panchgani",
-    "Luxury Villas Lonavala",
-    "Private Pool Villas",
-    "Holiday Homes Maharashtra",
-    "Weekend Villas Near Pune",
-    "Weekend Villas Near Mumbai",
-    "Natures Sweet Homes",
-    "Villas in Panchgani",
-    "Villas in Mahabaleshwar",
-    "Villas in Lonavala"
+  "Private Pool Villas Mahabaleshwar",
+  "Luxury Villas Panchgani",
+  "Private Pool Villas Panchgani",
+  "Luxury Villas Lonavala",
+  "Holiday Homes Maharashtra",
+  "Weekend Villas Near Pune",
+  "Weekend Villas Near Mumbai",
+  "Villas in Mahabaleshwar",
+  "Villas in Panchgani",
+  "Villas in Lonavala",
+  "Luxury Villa Booking Maharashtra",
+  "Family Villas Maharashtra",
+  "Group Villas Maharashtra",
+  "Natures Sweet Homes"
   ],
 
   authors: [
@@ -48,6 +52,11 @@ export const metadata = {
 category: "Travel",
 referrer: "origin-when-cross-origin",
 themeColor: "#2FA56E", 
+formatDetection: {
+  email: true,
+  address: true,
+  telephone: true,
+},
 
 
   alternates: {
@@ -70,7 +79,7 @@ themeColor: "#2FA56E",
     title:
       "Natures Sweet Homes | Luxury Villas in Mahabaleshwar, Panchgani & Lonavala",
     description:
-      "Luxury private villas, mountain retreats and private pool stays across Maharashtra.",
+      "Book luxury private pool villas and holiday homes in Mahabaleshwar, Panchgani and Lonavala. Professionally managed stays with mountain views, premium amenities and unforgettable experiences in Maharashtra.",
 
     url: "https://www.naturesweethomes.com",
     siteName: "Natures Sweet Homes",
@@ -98,44 +107,92 @@ themeColor: "#2FA56E",
   },
 
   icons: {
-    icon: "/circlelogo.png",
-    shortcut: "/circlelogo.png",
-    apple: "/circlelogo.png",
-  },
+  icon: [
+    {
+      url: "/circlelogo.png",
+      sizes: "32x32",
+      type: "image/png",
+    },
+  ],
+ manifest: "/site.webmanifest",
+  shortcut: "/circlelogo.png",
+  apple: "/circlelogo.png",
+},
  verification: {
     google: "5PsMk4dzsE1IkHdUULCyzqS3o_eM-VqZBYVvmZxUkUw",
     pinterest: "de300e9fa952ce6e086535a8bc1519ca",
   },
 };
 export default function RootLayout({ children }) {
-  const orgJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'LodgingBusiness',
-    name: "Natures Sweet Homes",
-    description: 'Professionally managed luxury private villas and holiday homes in Mahabaleshwar, Panchgani and Lonavala.',
-    url: 'https://www.naturesweethomes.com',
-    telephone: '+918010368931',
-    email: 'naturesweethomes@gmail.com',
-    image: 'https://www.naturesweethomes.com/og-image.png',
-	address: {
-  '@type': 'PostalAddress',
-  streetAddress: 'M. No. 551, At. Post Bhilar, Tal. Mahabaleshwar, Dist. Satara',
-  addressLocality: 'Panchgani',
-  addressRegion: 'Maharashtra',
-  postalCode: '412805',
-  addressCountry: 'India'
-},
-    sameAs: [
-'https://www.instagram.com/naturessweethomes',
-'https://www.facebook.com/share/15E4azKoTg/',
-'https://x.com/natures_homes',
-'https://in.pinterest.com/naturessweethomes/',
-'https://g.co/kgs/bqVpxYE'
-], 
-    aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '200' },
-  };
+const orgJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'VacationRental',
+
+  name: 'Natures Sweet Homes',
+
+  url: 'https://naturessweethomes.com',
+
+  logo:
+    'https://naturessweethomes.com/circlelogo.png',
+
+  image:
+    'https://naturessweethomes.com/og-image3.jpg',
+
+  telephone: '+918010368931',
+
+  email: 'naturesweethomes@gmail.com',
+
+  priceRange: '₹₹₹',
+
+  description:
+    'Luxury private villas and holiday homes in Mahabaleshwar, Panchgani and Lonavala.',
+
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: '17.9239',
+    longitude: '73.7315',
+  },
+
+  areaServed: [
+    {
+      '@type': 'City',
+      name: 'Mahabaleshwar',
+    },
+    {
+      '@type': 'City',
+      name: 'Panchgani',
+    },
+    {
+      '@type': 'City',
+      name: 'Lonavala',
+    },
+  ],
+
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress:
+      'M. No. 551, At. Post Bhilar, Tal. Mahabaleshwar, Dist. Satara',
+    addressLocality:
+      'Panchgani',
+    addressRegion:
+      'Maharashtra',
+    postalCode:
+      '412805',
+    addressCountry:
+      'India',
+  },
+
+  aggregateRating: {
+    '@type':
+      'AggregateRating',
+    ratingValue:
+      '4.9',
+    reviewCount:
+      '200',
+  },
+};
 return (
-<html lang="en">
+<html lang="en-IN">
 <head>
 <meta
 name="p:domain_verify"
