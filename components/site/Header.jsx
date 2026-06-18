@@ -36,7 +36,7 @@ export default function Header() {
         <div className="hidden lg:grid grid-cols-[1fr_auto_1fr] items-center h-24 gap-6">
           <Link href="/" className="flex items-center gap-3 group justify-self-start">
             <div className="relative w-24 h-24 flex-shrink-0">
-              <Image src="/circlelogo4.png" alt="Natures Sweet Homes" fill className="object-contain" priority sizes="64px" />
+              <Image src="/logo.png" alt="Natures Sweet Homes" fill className="object-contain" priority sizes="64px" />
             </div>
             <div className="leading-tight whitespace-nowrap">
               <div className="font-serif text-xl text-ink">Natures Sweet Homes</div>
@@ -79,7 +79,7 @@ export default function Header() {
         <div className="lg:hidden grid grid-cols-[auto_1fr_auto] items-center gap-2 h-16">
           <Link href="/" className="justify-self-start flex-shrink-0">
             <div className="relative w-16 h-16">
-              <Image src="/circlelogo4.png" alt="Logo" fill className="object-contain" priority sizes="48px" />
+              <Image src="/logo.png" alt="Logo" fill className="object-contain" priority sizes="48px" />
             </div>
           </Link>
           <Link href="/" className="justify-self-center text-center px-1">
@@ -100,7 +100,7 @@ export default function Header() {
             <div className="flex items-center justify-between px-5 py-4 grad-bp text-white">
               <div className="flex items-center gap-3">
                 <div className="relative w-14 h-14 rounded-lg overflow-hidden bg-white/15">
-                  <Image src="/circlelogo4.png" alt="logo" fill className="object-contain p-0.5" sizes="40px" />
+                  <Image src="/logo.png" alt="logo" fill className="object-contain p-0.5" sizes="40px" />
                 </div>
                 <div className="leading-tight">
                   <div className="font-serif text-base">Natures Sweet Homes</div>
