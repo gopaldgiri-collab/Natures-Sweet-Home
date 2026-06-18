@@ -62,8 +62,7 @@ export default function Header() {
                 </div>
               </div>
             </div>
-            <Link href="/contact" className="text-sm font-medium text-ink hover:text-brand transition-colors">Contact</Link>
-          </nav>
+                </nav>
 
           <div className="flex items-center gap-2 justify-self-end">
             <Link href="/contact">
