@@ -79,7 +79,7 @@ themeColor: "#2FA56E",
 
     images: [
       {
-        url: "https://www.naturesweethomes.com/og-image.jpg ",
+        url: "https://www.naturesweethomes.com/og-image3.jpg ",
         width: 1200,
         height: 630,
         alt: "Natures Sweet Homes",
