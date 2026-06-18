@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
           <div>
             <div className="flex items-center gap-3 mb-4">
-        <div className="relative w-36 h-36 bg-white rounded-3xl p-3 shadow-xl flex-shrink-0">
+        <div className="relative w-36 h-36">
 <Image
 src="https://www.naturesweethomes.com/circlelogo.png"
 alt="Natures Sweet Homes"
