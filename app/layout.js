@@ -21,7 +21,7 @@ export const metadata = {
   },
 
   description:
-    "Luxury private villas and holiday homes in Panchgani, Mahabaleshwar and Lonavala. Private pools, mountain views and professionally managed stays.",
+    "Luxury private villas and holiday homes in Mahabaleshwar, Panchgani and Lonavala. Private pools, mountain views and professionally managed stays.",
 
   keywords: [
     "Luxury Villas Panchgani",
