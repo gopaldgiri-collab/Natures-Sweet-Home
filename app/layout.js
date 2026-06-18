@@ -98,9 +98,9 @@ themeColor: "#2FA56E",
   },
 
   icons: {
-    icon: "/circlelogo2.png",
-    shortcut: "/circlelogo2.png",
-    apple: "/circlelogo2.png",
+    icon: "/circlelogo.png",
+    shortcut: "/circlelogo.png",
+    apple: "/circlelogo.png",
   },
  verification: {
     google: "5PsMk4dzsE1IkHdUULCyzqS3o_eM-VqZBYVvmZxUkUw",
