@@ -5,7 +5,6 @@ import Footer from '@/components/site/Footer';
 import WhatsAppFloat from '@/components/site/WhatsAppFloat';
 import TopBar from '@/components/site/TopBar';
 import Providers from "./providers";
-import './globals.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -45,6 +44,11 @@ export const metadata = {
 
   creator: "Natures Sweet Homes",
   publisher: "Natures Sweet Homes",
+ applicationName: "Natures Sweet Homes",
+category: "Travel",
+referrer: "origin-when-cross-origin",
+themeColor: "#2FA56E", 
+
 
   alternates: {
     canonical: "https://www.naturesweethomes.com",
@@ -75,7 +79,7 @@ export const metadata = {
 
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://www.naturesweethomes.com/og-image.jpg ",
         width: 1200,
         height: 630,
         alt: "Natures Sweet Homes",
@@ -121,12 +125,25 @@ export default function RootLayout({ children }) {
   postalCode: '412805',
   addressCountry: 'India'
 },
-    sameAs: ['https://www.instagram.com/naturessweethomes', 'https://www.facebook.com/share/15E4azKoTg/', 'https://g.co/kgs/bqVpxYE'],
+    sameAs: [
+'https://www.instagram.com/naturessweethomes',
+'https://www.facebook.com/share/15E4azKoTg/',
+'https://x.com/natures_homes',
+'https://in.pinterest.com/naturessweethomes/',
+'https://g.co/kgs/bqVpxYE'
+], 
     aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '200' },
   };
 return (
-  <html lang="en">
-    <body className="bg-background text-foreground antialiased">
+<html lang="en">
+<head>
+<meta
+name="p:domain_verify"
+content="de300e9fa952ce6e086535a8bc1519ca"
+/>
+</head>
+
+<body className="bg-background text-foreground antialiased"> 
       <Providers>
         <script
           type="application/ld+json"
@@ -150,4 +167,5 @@ return (
   </html>
 );
 }
+
 
