@@ -11,16 +11,16 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
           <div>
             <div className="flex items-center gap-3 mb-4">
-        <div className="relative w-36 h-36">
-<Image
-src="https://www.naturesweethomes.com/circlelogo.png"
-alt="Natures Sweet Homes"
-fill
-className="object-contain p-3"
-sizes="144px"
-/>
-</div> 
-
+        <div className="relative w-32 h-32 md:w-36 md:h-36 rounded-full overflow-hidden flex-shrink-0">
+  <Image
+    src="/circlelogo.png"
+    alt="Natures Sweet Homes"
+    fill
+    priority
+    sizes="144px"
+    className="object-cover rounded-full"
+  />
+</div>
               <div>
                 <div className="font-serif text-xl text-white">Natures Sweet Homes</div>
                 <div className="text-[10px] tracking-[0.3em] uppercase text-gold">Your Comfort, Our Priority</div>
