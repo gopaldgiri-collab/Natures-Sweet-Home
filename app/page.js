@@ -37,7 +37,7 @@ const HERO_SLIDES = [
     image: "/images/hero/hero1.webp",
     eyebrow: 'Your Comfort, Our Priority',
     titleA: 'Luxury Private Villas in',
-    accent: 'Panchgani, Mahabaleshwar & Lonavala',
+    accent: 'Mahabaleshwar, Panchgani & Lonavala',
     titleB: '',
     subtitle: 'Professionally managed holiday homes hand-picked across the Sahyadris — boutique stays, private pools and unforgettable mountain views.',
   },
@@ -68,7 +68,7 @@ const AMENITIES = [
 ];
 
 const WHYCHOOSE = [
-  { icon: MapPin, title: 'Premium Location', desc: 'Nestled in the Sahyadris — Panchgani, Mahabaleshwar & Lonavala' },
+  { icon: MapPin, title: 'Premium Location', desc: 'Nestled in the Sahyadris — Mahabaleshwar, Panchgani & Lonavala' },
   { icon: Star, title: '5★ Hospitality', desc: 'Professionally managed, hotel-grade service standards' },
   { icon: BedDouble, title: 'Boutique Stays', desc: 'Hand-picked private villas with character & comfort' },
   { icon: Award, title: 'Trusted Hosts', desc: '200+ stays, 4.9 average rating, repeat guests' },
