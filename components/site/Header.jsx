@@ -40,7 +40,7 @@ export default function Header() {
             </div>
             <div className="leading-tight whitespace-nowrap">
               <div className="font-serif text-xl text-ink">Natures Sweet Homes</div>
-              <div className="text-[10px] tracking-[0.28em] uppercase grad-text font-medium">Your Comfort, Our Priority</div>
+              <div className="text-[10px] tracking-[0.20em] uppercase grad-text font-medium">Your Comfort, Our Priority</div>
             </div>
           </Link>
 
