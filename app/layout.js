@@ -116,7 +116,7 @@ export default function RootLayout({ children }) {
     url: 'https://www.naturesweethomes.com',
     telephone: '+918010368931',
     email: 'naturesweethomes@gmail.com',
-    image: 'https://www.naturesweethomes.com/logo.png',
+    image: 'https://www.naturesweethomes.com/og-image.png',
 	address: {
   '@type': 'PostalAddress',
   streetAddress: 'M. No. 551, At. Post Bhilar, Tal. Mahabaleshwar, Dist. Satara',
