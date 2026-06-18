@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
         <div className="relative w-62 h-62 md:w-36 md:h-36 rounded-full overflow-hidden flex-shrink-0">
   <Image
-    src="/circlelogo.png"
+    src="/circlelogo4.png"
     alt="Natures Sweet Homes"
     fill
     priority
