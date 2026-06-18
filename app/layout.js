@@ -12,31 +12,101 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
 export const metadata = {
-  metadataBase: new URL('https://www.naturesweethomes.com'),
+  metadataBase: new URL("https://www.naturesweethomes.com"),
+
   title: {
-    default: "Natures Sweet Homes — Luxury Private Villas in Panchgani, Mahabaleshwar & Lonavala",
+    default:
+      "Natures Sweet Homes | Luxury Villas in Panchgani, Mahabaleshwar & Lonavala",
     template: "%s | Natures Sweet Homes",
   },
-  description:
-    'Professionally managed luxury private villas and holiday homes in Panchgani, Mahabaleshwar and Lonavala. Boutique pool villas, hotel-grade service, WhatsApp-first booking. Your Comfort, Our Priority.',
-  keywords:
-    'villa rental Panchgani, luxury villa Mahabaleshwar, pool villa Lonavala, holiday home rental Maharashtra, weekend villa Mumbai Pune, villas near Mapro Garden, Bhilar villa, private pool villa Panchgani, Natures Sweet Homes',
-  alternates: { canonical: 'https://www.naturesweethomes.com' },
-other: {
-  "p:domain_verify": "de300e9fa952ce6e086535a8bc1519ca",
-},
-  openGraph: {
-    title: "Natures Sweet Homes — Luxury Villas in the Sahyadris",
-    description: 'Boutique luxury villas with private pools, manicured gardens and hotel-grade hospitality in Panchgani. Book direct on WhatsApp.',
-    url: 'https://www.naturesweethomes.com',
-    siteName: "Natures Sweet Homes",
-    type: 'website',
-    locale: 'en_IN',
-  },
-  twitter: { card: 'summary_large_image', title: "Natures Sweet Homes — Luxury Villas in the Sahyadris", description: 'Boutique luxury villas with private pools and hotel-grade hospitality. Book direct on WhatsApp.' },
-  robots: { index: true, follow: true },
-};
 
+  description:
+    "Luxury private villas and holiday homes in Panchgani, Mahabaleshwar and Lonavala. Private pools, mountain views and professionally managed stays.",
+
+  keywords: [
+    "Luxury Villas Panchgani",
+    "Luxury Villas Mahabaleshwar",
+    "Luxury Villas Lonavala",
+    "Private Pool Villas",
+    "Holiday Homes Maharashtra",
+    "Weekend Villas Near Pune",
+    "Weekend Villas Near Mumbai",
+    "Natures Sweet Homes",
+    "Villas in Panchgani",
+    "Villas in Mahabaleshwar",
+    "Villas in Lonavala"
+  ],
+
+  authors: [
+    {
+      name: "Natures Sweet Homes",
+    },
+  ],
+
+  creator: "Natures Sweet Homes",
+  publisher: "Natures Sweet Homes",
+
+  alternates: {
+    canonical: "https://www.naturesweethomes.com",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+      "max-snippet": -1,
+    },
+  },
+
+  openGraph: {
+    title:
+      "Natures Sweet Homes | Luxury Villas in Panchgani, Mahabaleshwar & Lonavala",
+    description:
+      "Luxury private villas, mountain retreats and private pool stays across Maharashtra.",
+
+    url: "https://www.naturesweethomes.com",
+    siteName: "Natures Sweet Homes",
+    locale: "en_IN",
+    type: "website",
+
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Natures Sweet Homes",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Natures Sweet Homes | Luxury Villas in Panchgani, Mahabaleshwar & Lonavala",
+    description:
+      "Luxury private villas and holiday homes across Maharashtra.",
+
+    images: ["/og-image.jpg"],
+  },
+
+  icons: {
+    icon: "/circlelogo2.png",
+    shortcut: "/circlelogo2.png",
+    apple: "/circlelogo2.png",
+  },
+
+  verification: {
+    google: "YOUR_GOOGLE_VERIFICATION_CODE",
+    pinterest: "YOUR_PINTEREST_VERIFICATION_CODE",
+  },
+verification: {
+pinterest: "de300e9fa952ce6e086535a8bc1519ca",
+}, 
+};
 export default function RootLayout({ children }) {
   const orgJsonLd = {
     '@context': 'https://schema.org',
