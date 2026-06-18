@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
         <div className="relative w-36 h-36 bg-white rounded-3xl p-3 shadow-xl flex-shrink-0">
 <Image
-src="/logo2.png"
+src="https://www.naturesweethomes.com/circlelogo2.png"
 alt="Natures Sweet Homes"
 fill
 className="object-contain p-3"
@@ -139,3 +139,5 @@ sizes="144px"
 </footer>
 );
 }
+
+
