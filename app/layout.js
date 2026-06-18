@@ -16,7 +16,7 @@ export const metadata = {
 
   title: {
     default:
-      "Natures Sweet Homes | Luxury Villas in Panchgani, Mahabaleshwar & Lonavala",
+      "Natures Sweet Homes | Luxury Villas in Mahabaleshwar, Panchgani & Lonavala",
     template: "%s | Natures Sweet Homes",
   },
 
@@ -24,8 +24,8 @@ export const metadata = {
     "Luxury private villas and holiday homes in Mahabaleshwar, Panchgani and Lonavala. Private pools, mountain views and professionally managed stays.",
 
   keywords: [
-    "Luxury Villas Panchgani",
     "Luxury Villas Mahabaleshwar",
+    "Luxury Villas Panchgani",
     "Luxury Villas Lonavala",
     "Private Pool Villas",
     "Holiday Homes Maharashtra",
@@ -64,7 +64,7 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Natures Sweet Homes | Luxury Villas in Panchgani, Mahabaleshwar & Lonavala",
+      "Natures Sweet Homes | Luxury Villas in Mahabaleshwar, Panchgani & Lonavala",
     description:
       "Luxury private villas, mountain retreats and private pool stays across Maharashtra.",
 
@@ -86,7 +86,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Natures Sweet Homes | Luxury Villas in Panchgani, Mahabaleshwar & Lonavala",
+      "Natures Sweet Homes | Luxury Villas in Mahabaleshwar, Panchgani & Lonavala",
     description:
       "Luxury private villas and holiday homes across Maharashtra.",
 
@@ -108,7 +108,7 @@ export default function RootLayout({ children }) {
     '@context': 'https://schema.org',
     '@type': 'LodgingBusiness',
     name: "Natures Sweet Homes",
-    description: 'Professionally managed luxury private villas and holiday homes in Panchgani, Mahabaleshwar and Lonavala.',
+    description: 'Professionally managed luxury private villas and holiday homes in Mahabaleshwar, Panchgani and Lonavala.',
     url: 'https://www.naturesweethomes.com',
     telephone: '+918010368931',
     email: 'naturesweethomes@gmail.com',
