@@ -432,7 +432,7 @@ export default function Home() {
             {LOCATIONS.map((l, i) => (
               <SwiperSlide key={l.slug}>
                 <Link href={`/locations/${l.slug}`} className="group relative aspect-[3/4] overflow-hidden rounded-3xl block w-full shadow-lg">
-                  {/* Image overridden directly in the loop to use hero4.webp, hero5.webp, hero6.webp */}
+                  {/* Image overridden directly in the loop to use hero1.webp, hero2.webp, hero3.webp */}
                   <img src={`/images/hero/hero${i + 4}.webp`} alt={l.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-8 md:p-10 text-white">
