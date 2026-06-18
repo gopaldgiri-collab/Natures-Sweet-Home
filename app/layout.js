@@ -98,14 +98,10 @@ export const metadata = {
     shortcut: "/circlelogo2.png",
     apple: "/circlelogo2.png",
   },
-
-  verification: {
-    google: "YOUR_GOOGLE_VERIFICATION_CODE",
-    pinterest: "YOUR_PINTEREST_VERIFICATION_CODE",
+ verification: {
+    google: "5PsMk4dzsE1IkHdUULCyzqS3o_eM-VqZBYVvmZxUkUw",
+    pinterest: "de300e9fa952ce6e086535a8bc1519ca",
   },
-verification: {
-pinterest: "de300e9fa952ce6e086535a8bc1519ca",
-}, 
 };
 export default function RootLayout({ children }) {
   const orgJsonLd = {
