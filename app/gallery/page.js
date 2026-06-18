@@ -30,7 +30,7 @@ export default function Gallery() {
   return (
     <>
       <section className="relative h-[55vh] min-h-[380px] overflow-hidden">
-        <img src="/images/villas/dhanushkodi/Parking Spcae.JPG.webp" alt="gallery" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/images/hero/hero8.webp" alt="gallery" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 hero-overlay" />
         <div className="relative h-full container mx-auto max-w-7xl px-5 md:px-8 flex items-end pb-14 text-white">
           <div><div className="gold-divider">Visual Journal</div><h1 className="font-serif text-5xl md:text-7xl mt-4">Our Gallery</h1></div>
