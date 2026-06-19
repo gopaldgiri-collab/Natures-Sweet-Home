@@ -262,7 +262,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-6 relative">
               <img src="/images/villas/dwarka/dwarka1.webp" alt="Luxury Private Pool Villa Exterior in Maharashtra" className="rounded-3xl aspect-[3/4] object-cover shadow-2xl" />
-              <img src="/images/villas/dhanushkodi/Parking space.JPG.webp" alt="Luxury Private Pool Villa Exterior in Maharashtra" className="rounded-3xl aspect-[3/4] object-cover mt-12 shadow-2xl" />
+              <img src="/images/villas/dhanushkodi/Parking Space.JPG.webp" alt="Luxury Private Pool Villa Exterior in Maharashtra" className="rounded-3xl aspect-[3/4] object-cover mt-12 shadow-2xl" />
             </div>
           </div>
         </div>
