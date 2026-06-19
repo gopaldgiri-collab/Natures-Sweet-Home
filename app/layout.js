@@ -51,7 +51,6 @@ export const metadata = {
  applicationName: "Natures Sweet Homes",
 category: "Travel",
 referrer: "origin-when-cross-origin",
-themeColor: "#2FA56E", 
 formatDetection: {
   email: true,
   address: true,
@@ -122,6 +121,9 @@ formatDetection: {
     google: "5PsMk4dzsE1IkHdUULCyzqS3o_eM-VqZBYVvmZxUkUw",
     pinterest: "de300e9fa952ce6e086535a8bc1519ca",
   },
+};
+export const viewport = {
+  themeColor: "#2FA56E",
 };
 export default function RootLayout({ children }) {
 const orgJsonLd = {
