@@ -1,4 +1,5 @@
 import HomePageClient from "./HomePageClient";
+import Image from "next/image";
 
 export const metadata = {
   title:
