@@ -20,8 +20,7 @@ export async function POST(req) {
 
     // 1. Email to Natures Sweet Homes (Admin)
     const { error: adminError } = await resend.emails.send({
-          // If not yet verified, temporarily revert to "Natures Sweet Homes <onboarding@resend.dev>"
-      from: "Natures Sweet Homes <onboarding@resend.dev>",
+    from: "Natures Sweet Homes <bookings@naturesweethomes.com>"
       to: ["naturesweethomes@gmail.com"],
       subject: `New Villa Inquiry - ${villa || "General Inquiry"}`,
       html: `
@@ -57,7 +56,7 @@ export async function POST(req) {
     // 2. Auto-reply to customer
     if (email) {
       const { error: userError } = await resend.emails.send({
-        from: "Natures Sweet Homes <onboarding@resend.dev>",
+        from: "Natures Sweet Homes <bookings@naturesweethomes.com>"
         to: [email],
         subject: "Thank you for your inquiry - Natures Sweet Homes",
         html: `
