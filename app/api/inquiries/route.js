@@ -22,7 +22,7 @@ export async function POST(req) {
     const { error: adminError } = await resend.emails.send({
       /
       // If not yet verified, temporarily revert to "Natures Sweet Homes <onboarding@resend.dev>"
-      from: "Natures Sweet Homes <naturesweethomes@gmail.com>",
+      from: "Natures Sweet Homes <onboarding@resend.dev>",
       to: ["naturesweethomes@gmail.com"],
       subject: `New Villa Inquiry - ${villa || "General Inquiry"}`,
       html: `
@@ -58,7 +58,7 @@ export async function POST(req) {
     // 2. Auto-reply to customer
     if (email) {
       const { error: userError } = await resend.emails.send({
-        from: "Natures Sweet Homes <naturesweethomes@gmail.com>",
+        from: "Natures Sweet Homes <onboarding@resend.dev>",
         to: [email],
         subject: "Thank you for your inquiry - Natures Sweet Homes",
         html: `
