@@ -5,13 +5,6 @@ export async function POST(req) {
   const resend = new Resend(
     process.env.RESEND_API_KEY
   );
-
-  try {
-    ...
-  }
-}
-
-export async function POST(req) {
   try {
     const form = await req.json();
 
