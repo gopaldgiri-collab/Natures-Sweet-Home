@@ -20,8 +20,7 @@ export async function POST(req) {
 
     // 1. Email to Natures Sweet Homes (Admin)
     const { error: adminError } = await resend.emails.send({
-      /
-      // If not yet verified, temporarily revert to "Natures Sweet Homes <onboarding@resend.dev>"
+          // If not yet verified, temporarily revert to "Natures Sweet Homes <onboarding@resend.dev>"
       from: "Natures Sweet Homes <onboarding@resend.dev>",
       to: ["naturesweethomes@gmail.com"],
       subject: `New Villa Inquiry - ${villa || "General Inquiry"}`,
