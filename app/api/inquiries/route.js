@@ -1,7 +1,15 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+export async function POST(req) {
+  const resend = new Resend(
+    process.env.RESEND_API_KEY
+  );
+
+  try {
+    ...
+  }
+}
 
 export async function POST(req) {
   try {
@@ -19,7 +27,7 @@ export async function POST(req) {
     } = form;
 
     const { error: adminError } = await resend.emails.send({
-    from: "Natures Sweet Homes <bookings@naturesweethomes.com>"
+    from: "Natures Sweet Homes <bookings@naturesweethomes.com>",
       to: ["naturesweethomes@gmail.com"],
       subject: `New Villa Inquiry - ${villa || "General Inquiry"}`,
       html: `
@@ -55,7 +63,7 @@ export async function POST(req) {
     // 2. Auto-reply to customer
     if (email) {
       const { error: userError } = await resend.emails.send({
-        from: "Natures Sweet Homes <bookings@naturesweethomes.com>"
+        from: "Natures Sweet Homes <bookings@naturesweethomes.com>",
         to: [email],
         subject: "Thank you for your inquiry - Natures Sweet Homes",
         html: `
