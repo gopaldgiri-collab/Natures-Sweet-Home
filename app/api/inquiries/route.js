@@ -18,7 +18,6 @@ export async function POST(req) {
       message,
     } = form;
 
-    // 1. Email to Natures Sweet Homes (Admin)
     const { error: adminError } = await resend.emails.send({
     from: "Natures Sweet Homes <bookings@naturesweethomes.com>"
       to: ["naturesweethomes@gmail.com"],
